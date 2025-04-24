@@ -10,7 +10,10 @@ public class Ex14 {
 		
 		System.out.print("숫자를 입력하세요:");
 		int num = sc.nextInt();
+		
+		
 		int result = 0;
+		
 		
 		System.out.println("\n======= 덧셈 계산기 =======");
 		
@@ -23,11 +26,11 @@ public class Ex14 {
 		    }
 			
 		
-		}
-		System.out.println();
-		System.out.println("\n" + "합계: " + result);
-		System.out.println("==========================");
-		sc.close();
+		}System.out.println();
+		 System.out.println("\n" + "합계: " + result);
+		 System.out.println("==========================");
+		
+		 sc.close();
 
 	}
 
